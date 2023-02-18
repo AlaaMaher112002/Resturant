@@ -1,0 +1,216 @@
+#home{
+    /* overflow: hidden; */
+    background-image: url(../Images/shutterstock_277750193.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+ 
+
+}
+.layout{
+    background-color: rgba(0, 0, 0,0.6);
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+  
+}
+.navbar{
+background-color: rgba(0, 0, 0,0.7) !important;
+}
+
+#navbarSupportedContent ul li a{
+    transition: all;
+    transition-duration: 0.5s;
+}
+#navbarSupportedContent ul li a:hover{
+    color:rgb(122, 79, 22) !important;
+}
+
+.logo h1{
+    font-size: 75 !important;
+    font-family: 'Alegreya';
+}
+.btn{
+    margin-top: 25px;
+    padding: 10px 15px;
+    font-size: 18px ;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.btn1{
+    background-color: rgb(122, 79, 22);
+    color: white;
+}
+.btn2{
+    background-color: rgb(243, 236, 226);
+    color: black;
+    margin-left: 18px;
+}
+
+
+
+#about{
+    box-sizing: border-box;
+}
+
+.about-info h3{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about-info h5{
+    font-family:'italic';
+    color:rgba(122, 79, 22,0.6);
+    font-size: 25px;
+ }
+ .about-info p{
+    color: gray;
+    line-height: 32px;
+}
+.about-info ul li{
+    list-style: none;
+}
+
+.about-icons i{
+    font-size: 24px;
+    background-color:rgba(122, 79, 22,0.6) ;
+    color: aliceblue;
+   width: 45px;
+   height: 45px;
+   padding-top: 10px;
+   padding-left: 10px;
+    border-radius: 50%;
+    margin-top: 7px;
+}
+.about-icons p{
+    margin: 12px 10px;
+    font-size: 19px;
+}
+#review{
+    background-color: #F8F8F8;
+}
+.review-icon p{
+    color: gray;
+    line-height: 32px;
+}
+.review-icon i{
+    color:rgba(122, 79, 22,0.6) ;
+    font-size: 24px;
+     margin-right: 7px;
+}
+
+.fixed-bg{
+    background-image: url(../Images/bg2\ \(2\).jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 640px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#menu{
+    background-color: #F8F8F8;
+    box-sizing: border-box; 
+}
+
+#menu img{
+    border-radius: 10px;
+}
+
+#menu h3{
+    font-family: 'Alegreya';
+}
+
+#menu button{
+    background-color:#C19A5A ;
+    color: aliceblue;
+    font-size: 18px;  
+    transition: all;
+    transition-duration: 1s;
+}
+#menu button:hover{
+ background-color: #503f24;
+}
+
+#blog{
+    background-image: url(../Images/cups\ \(1\).jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 620px;
+    position: relative;
+}
+.blogoverlay{
+    background-color: rgba(0, 0, 0,0.6);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 620px;
+}
+#blog i{
+    font-size: 48px;
+}
+#blog h3{
+    font-size: 56px;
+    font-family:'Alegreya' ;
+}
+#blog p{
+    font-size: 26px;
+    font-family:'Alegreya' ;
+}
+
+
+
+#carouselExampleIndicators button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+#carouselExampleIndicators .carousel-indicators{
+    position: absolute;
+    top: 107%;
+}
+
+
+
+
+
+
+.last{
+    box-sizing: border-box;
+    background-color: rgb(36, 35, 35);
+    color:#beb9b9 ;
+}
+.last h4{
+    color: #F8F8F8;
+    font-size: 25px;
+    font-family: 'Alegreya';
+}
+.brdr{
+    width: 75%;
+    height: 1px;
+    background-color: #5c5956;
+    text-align: center;
+
+}
+
+.last-icon li i{
+    color:#beb9b9 ;
+    font-size: 20px;
+     margin-right: 15px;  
+     transition: all;
+     transition-duration: 0.5;
+}
+.last-icon li i:hover{
+color: #5c5956;
+}
+.social-media{
+    background-color: rgb(15, 15, 15);
+}
+.social-media i{
+margin-left: 10px;
+font-size: 22;
+transition: all;
+transition-duration: 0.5s;
+}
+.social-media i:hover{
+color: rgb(49, 49, 49) ;
+}
